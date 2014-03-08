@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<system name="nios">
+    <parameter valueString="9347155371" name="systemHash"/>
+    <parameter name="quartusRootDir">d:\altera\72\quartus</parameter>
+    <parameter valueString="1218886885937" name="timeStamp"/>
+    <parameter valueString="false" name="generateLegacySDK"/>
+    <parameter name="bonusData">bonusData 
+{
+   element lcd_si.s1
+   {
+      datum baseAddress
+      {
+         value = "9445504";
+         type = "long";
+      }
+   }
+   element tristate_bridge.avalon_slave
+   {
+      datum baseAddress
+      {
+         value = "0";
+         type = "long";
+      }
+   }
+   element lcd_rst_n.s1
+   {
+      datum baseAddress
+      {
+         value = "9445456";
+         type = "long";
+      }
+   }
+   element tristate_bridge
+   {
+      datum _sortIndex
+      {
+         value = "1";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element cfi_flash
+   {
+      datum _sortIndex
+      {
+         value = "2";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element epcs_controller.epcs_control_port
+   {
+      datum baseAddress
+      {
+         value = "9443328";
+         type = "long";
+      }
+   }
+   element Double_ADS805_0
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+   }
+   element cfi_flash.s1
+   {
+      datum baseAddress
+      {
+         value = "4194304";
+         type = "long";
+      }
+   }
+   element lcd_AO.s1
+   {
+      datum baseAddress
+      {
+         value = "9445440";
+         type = "long";
+      }
+   }
+   element BUTTON_PIO.s1
+   {
+      datum baseAddress
+      {
+         value = "9445424";
+         type = "long";
+      }
+   }
+   element lcd_cs_n
+   {
+      datum _sortIndex
+      {
+         value = "11";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element sys_timer.s1
+   {
+      datum baseAddress
+      {
+         value = "9445376";
+         type = "long";
+      }
+   }
+   element sys_clk
+   {
+   }
+   element lcd_rst_n
+   {
+      datum _sortIndex
+      {
+         value = "10";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element nios_fast.jtag_debug_module
+   {
+      datum baseAddress
+      {
+         value = "9441280";
+         type = "long";
+      }
+   }
+   element sram_16bit_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "8912896";
+         type = "long";
+      }
+   }
+   element BUTTON_PIO
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element sys_timer
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element sram_16bit_0
+   {
+      datum _sortIndex
+      {
+         value = "4";
+         type = "int";
+      }
+   }
+   element timer_stamp.s1
+   {
+      datum baseAddress
+      {
+         value = "9445408";
+         type = "long";
+      }
+   }
+   element lcd_si
+   {
+      datum _sortIndex
+      {
+         value = "13";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element lcd_AO
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element nios_fast
+   {
+      datum _sortIndex
+      {
+         value = "0";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element freq_avalon_0
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+   }
+   element timer_stamp
+   {
+      datum _enabled
+      {
+         value = "0";
+         type = "boolean";
+      }
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element lcd_sck
+   {
+      datum _sortIndex
+      {
+         value = "12";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element lcd_cs_n.s1
+   {
+      datum baseAddress
+      {
+         value = "9445472";
+         type = "long";
+      }
+   }
+   element nios
+   {
+   }
+   element Double_ADS805_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "9445520";
+         type = "long";
+      }
+   }
+   element epcs_controller
+   {
+      datum _sortIndex
+      {
+         value = "3";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element lcd_sck.s1
+   {
+      datum baseAddress
+      {
+         value = "9445488";
+         type = "long";
+      }
+   }
+   element jtag_uart
+   {
+      datum _sortIndex
+      {
+         value = "5";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
+   element clk
+   {
+   }
+   element jtag_uart.avalon_jtag_slave
+   {
+      datum baseAddress
+      {
+         value = "9445552";
+         type = "long";
+      }
+   }
+   element freq_avalon_0.avalon_slave_0
+   {
+      datum baseAddress
+      {
+         value = "9445536";
+         type = "long";
+      }
+   }
+}
+</parameter>
+    <parameter valueString="false" name="hardcopyCompatible"/>
+    <parameter valueString="CYCLONEII" name="deviceFamily"/>
+    <parameter valueString="false" name="generateLegacySim"/>
+    <parameter valueString="sun_vc.qpf" name="projectName"/>
+    <parameter valueString="VERILOG" name="hdlLanguage"/>
+    <parameter valueString="F:\final\sun_vc" name="projectDirectory"/>
+    <module version="7.2" name="clk" kind="clock_source">
+        <parameter valueString="true" name="clockFrequencyKnown"/>
+        <parameter valueString="50000000" name="clockFrequency"/>
+    </module>
+    <module version="7.2" name="nios_fast" kind="altera_nios2">
+        <parameter valueString="" name="userDefinedSettings"/>
+        <parameter valueString="Automatic" name="setting_branchPredictionType"/>
+        <parameter valueString="_10" name="mmu_processIDNumBits"/>
+        <parameter valueString="32" name="exceptionOffset"/>
+        <parameter valueString="EmbeddedMulFast" name="muldiv_multiplierType"/>
+        <parameter valueString="_4096" name="icache_size"/>
+        <parameter valueString="_128" name="debug_OCIOnchipTrace"/>
+        <parameter valueString="Fast" name="impl"/>
+        <parameter valueString="_4" name="mmu_uitlbNumEntries"/>
+        <parameter name="exceptionSlave">sram_16bit_0.avalon_slave_0</parameter>
+        <parameter valueString="false" name="dcache_omitDataMaster"/>
+        <parameter valueString="0" name="mmu_TLBMissExcOffset"/>
+        <parameter valueString="false" name="setting_illegalMemAccessDetection"/>
+        <parameter valueString="32" name="breakOffset"/>
+        <parameter valueString="true" name="debug_embeddedPLL"/>
+        <parameter valueString="false" name="setting_debugSimGen"/>
+        <parameter valueString="false" name="setting_alwaysBypassDCache"/>
+        <parameter valueString="_0" name="icache_numTCIM"/>
+        <parameter valueString="false" name="setting_showInternalSettings"/>
+        <parameter valueString="false" name="setting_illegalInstructionsTrap"/>
+        <parameter valueString="0" name="resetOffset"/>
+        <parameter valueString="false" name="setting_bhtIndexPcOnly"/>
+        <parameter valueString="true" name="setting_HDLSimCachesCleared"/>
+        <parameter valueString="true" name="setting_alwaysEncrypt"/>
+        <parameter valueString="false" name="setting_activateModelChecker"/>
+        <parameter valueString="_32" name="dcache_lineSize"/>
+        <parameter valueString="false" name="setting_allowFullAddressRange"/>
+        <parameter valueString="_7" name="mmu_dtlbPtrSz"/>
+        <parameter valueString="_4" name="mmu_itlbNumWays"/>
+        <parameter valueString="false" name="setting_avalonDebugPortPresent"/>
+        <parameter valueString="false" name="cpuReset"/>
+        <parameter valueString="true" name="setting_clearXBitsLDNonBypass"/>
+        <parameter valueString="_4" name="mmu_dtlbNumWays"/>
+        <parameter valueString="cfi_flash.s1" name="resetSlave"/>
+        <parameter valueString="_32" name="setting_perfCounterWidth"/>
+        <parameter valueString="" name="mmu_TLBMissExcSlave"/>
+        <parameter name="breakSlave">nios_fast.jtag_debug_module</parameter>
+        <parameter valueString="false" name="setting_preciseIllegalMemAccessException"/>
+        <parameter valueString="Level1" name="debug_level"/>
+        <parameter valueString="true" name="muldiv_divider"/>
+        <parameter valueString="false" name="dcache_bursts"/>
+        <parameter valueString="true" name="setting_activateMonitors"/>
+        <parameter valueString="true" name="setting_bit31BypassDCache"/>
+        <parameter valueString="Automatic" name="icache_ramBlockType"/>
+        <parameter valueString="_8" name="setting_bhtPtrSz"/>
+        <parameter valueString="false" name="setting_preciseDivisionErrorException"/>
+        <parameter valueString="false" name="setting_preciseSlaveAccessErrorException"/>
+        <parameter valueString="false" name="debug_debugReqSignals"/>
+        <parameter valueString="_6" name="mmu_udtlbNumEntries"/>
+        <parameter valueString="_0" name="dcache_numTCDM"/>
+        <parameter valueString="false" name="setting_fullWaveformSignals"/>
+        <parameter valueString="false" name="setting_performanceCounter"/>
+        <parameter valueString="_7" name="mmu_itlbPtrSz"/>
+        <parameter valueString="_2048" name="dcache_size"/>
+        <parameter valueString="Automatic" name="dcache_ramBlockType"/>
+        <parameter valueString="true" name="setting_activateTrace"/>
+        <parameter valueString="false" name="setting_HBreakTest"/>
+        <parameter valueString="false" name="setting_exportPCB"/>
+        <parameter valueString="false" name="setting_activateTestEndChecker"/>
+        <parameter valueString="None" name="icache_burstType"/>
+        <parameter valueString="false" name="setting_showUnpublishedSettings"/>
+        <parameter valueString="true" name="debug_triggerArming"/>
+        <parameter valueString="false" name="mmu_enabled"/>
+    </module>
+    <module version="7.2" name="tristate_bridge" kind="altera_avalon_tri_state_bridge">
+        <parameter valueString="false" name="registerIncomingSignals"/>
+    </module>
+    <module version="7.2" name="cfi_flash" kind="altera_avalon_cfi_flash">
+        <parameter valueString="8" name="dataWidth"/>
+        <parameter valueString="" name="sharedPorts"/>
+        <parameter valueString="40" name="holdTime"/>
+        <parameter valueString="50.0" name="actualSetupTime"/>
+        <parameter valueString="162.5" name="actualWaitTime"/>
+        <parameter valueString="50.0" name="actualHoldTime"/>
+        <parameter valueString="CUSTOM" name="corePreset"/>
+        <parameter valueString="NS" name="timingUnits"/>
+        <parameter valueString="160" name="waitTime"/>
+        <parameter valueString="40" name="setupTime"/>
+        <parameter valueString="22" name="addressWidth"/>
+    </module>
+    <module version="7.2" name="epcs_controller" kind="altera_avalon_epcs_flash_controller">
+        <parameter valueString="true" name="useASMIAtom"/>
+    </module>
+    <module version="1.0.1" name="sram_16bit_0" kind="sram_16bit_512k">
+        <parameter valueString="" name="sharedPorts"/>
+    </module>
+    <module version="7.2" name="sys_clk" kind="clock_source">
+        <parameter valueString="true" name="clockFrequencyKnown"/>
+        <parameter valueString="80000000" name="clockFrequency"/>
+    </module>
+    <module version="7.2" name="jtag_uart" kind="altera_avalon_jtag_uart">
+        <parameter valueString="8" name="readIRQThreshold"/>
+        <parameter valueString="" name="simInputCharacterStream"/>
+        <parameter valueString="0" name="hubInstanceID"/>
+        <parameter valueString="64" name="readBufferDepth"/>
+        <parameter valueString="false" name="allowMultipleConnections"/>
+        <parameter valueString="64" name="writeBufferDepth"/>
+        <parameter valueString="8" name="writeIRQThreshold"/>
+        <parameter valueString="false" name="useRegistersForWriteBuffer"/>
+        <parameter valueString="false" name="useRegistersForReadBuffer"/>
+        <parameter name="simInteractiveOptions">INTERACTIVE_ASCII_OUTPUT</parameter>
+    </module>
+    <module version="7.2" name="sys_timer" kind="altera_avalon_timer">
+        <parameter valueString="CUSTOM" name="timerPreset"/>
+        <parameter valueString="1.0" name="period"/>
+        <parameter valueString="false" name="resetOutput"/>
+        <parameter valueString="MSEC" name="periodUnits"/>
+        <parameter valueString="false" name="fixedPeriod"/>
+        <parameter valueString="false" name="alwaysRun"/>
+        <parameter valueString="false" name="timeoutPulseOutput"/>
+        <parameter valueString="true" name="snapshot"/>
+    </module>
+    <module version="7.2" name="timer_stamp" kind="altera_avalon_timer">
+        <parameter valueString="CUSTOM" name="timerPreset"/>
+        <parameter valueString="1.0" name="period"/>
+        <parameter valueString="false" name="resetOutput"/>
+        <parameter valueString="MSEC" name="periodUnits"/>
+        <parameter valueString="false" name="fixedPeriod"/>
+        <parameter valueString="false" name="alwaysRun"/>
+        <parameter valueString="false" name="timeoutPulseOutput"/>
+        <parameter valueString="true" name="snapshot"/>
+    </module>
+    <module version="7.2" name="BUTTON_PIO" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="5" name="width"/>
+        <parameter valueString="Input" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="true" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="7.2" name="lcd_AO" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="1" name="width"/>
+        <parameter valueString="Output" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="false" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="7.2" name="lcd_rst_n" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="1" name="width"/>
+        <parameter valueString="Output" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="false" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="7.2" name="lcd_cs_n" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="1" name="width"/>
+        <parameter valueString="Output" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="false" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="7.2" name="lcd_sck" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="1" name="width"/>
+        <parameter valueString="Output" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="false" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="7.2" name="lcd_si" kind="altera_avalon_pio">
+        <parameter valueString="RISING" name="edgeType"/>
+        <parameter valueString="1" name="width"/>
+        <parameter valueString="Output" name="direction"/>
+        <parameter valueString="LEVEL" name="irqType"/>
+        <parameter valueString="false" name="captureEdge"/>
+        <parameter valueString="false" name="simDoTestBenchWiring"/>
+        <parameter valueString="false" name="generateIRQ"/>
+        <parameter valueString="false" name="bitClearingEdgeCapReg"/>
+        <parameter valueString="0" name="simDrivenValue"/>
+    </module>
+    <module version="1.0" name="Double_ADS805_0" kind="Double_ADS805">
+        <parameter valueString="" name="sharedPorts"/>
+    </module>
+    <module version="1.0" name="freq_avalon_0" kind="freq_avalon">
+        <parameter valueString="" name="sharedPorts"/>
+    </module>
+    <connection version="7.2" start="nios_fast.instruction_master" kind="avalon" end="nios_fast.jtag_debug_module">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00901000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="nios_fast.jtag_debug_module">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00901000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.instruction_master" kind="avalon" end="tristate_bridge.avalon_slave">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x0000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="tristate_bridge.avalon_slave">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x0000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="tristate_bridge.tristate_master" kind="avalon_tristate" end="cfi_flash.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00400000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.instruction_master" kind="avalon" end="epcs_controller.epcs_control_port">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00901800" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="epcs_controller.epcs_control_port">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00901800" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.d_irq" kind="interrupt" end="epcs_controller.irq">
+        <parameter valueString="0" name="irqNumber"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.instruction_master" kind="avalon" end="sram_16bit_0.avalon_slave_0">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00880000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="sram_16bit_0.avalon_slave_0">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00880000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="jtag_uart.avalon_jtag_slave">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x009020b0" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.d_irq" kind="interrupt" end="jtag_uart.irq">
+        <parameter valueString="1" name="irqNumber"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="sys_timer.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902000" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.d_irq" kind="interrupt" end="sys_timer.irq">
+        <parameter valueString="2" name="irqNumber"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="timer_stamp.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902020" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.d_irq" kind="interrupt" end="timer_stamp.irq">
+        <parameter valueString="3" name="irqNumber"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="BUTTON_PIO.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902030" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="lcd_AO.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902040" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="lcd_rst_n.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902050" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="lcd_cs_n.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902060" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="lcd_sck.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902070" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="lcd_si.s1">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902080" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="nios_fast.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="tristate_bridge.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="cfi_flash.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="epcs_controller.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="sram_16bit_0.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="jtag_uart.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="sys_timer.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="timer_stamp.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="BUTTON_PIO.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="lcd_AO.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="lcd_rst_n.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="lcd_cs_n.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="lcd_sck.clk"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="lcd_si.clk"/>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="Double_ADS805_0.avalon_slave_0">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902090" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.d_irq" kind="interrupt" end="Double_ADS805_0.Avalon_Slave_0_irq">
+        <parameter valueString="3" name="irqNumber"/>
+    </connection>
+    <connection version="7.2" start="nios_fast.data_master" kind="avalon" end="freq_avalon_0.avalon_slave_0">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x009020a0" name="baseAddress"/>
+    </connection>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="Double_ADS805_0.clock"/>
+    <connection version="7.2" start="sys_clk.clk" kind="clock" end="freq_avalon_0.clock"/>
+    <connection version="7.2" start="nios_fast.instruction_master" kind="avalon" end="Double_ADS805_0.avalon_slave_0">
+        <parameter valueString="1" name="arbitrationPriority"/>
+        <parameter valueString="0x00902090" name="baseAddress"/>
+    </connection>
+</system>
+
